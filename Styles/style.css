@@ -1,0 +1,92 @@
+/* Imported Mulish Font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800&display=swap');
+
+
+/* Common Shared Styles */
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: #FF5400;
+    --black: #131318;
+    --white: #FFF;
+    --nav-color: #424247;
+    --description: #5A5A5D;
+}
+
+.container {
+    width: 81%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.common-title {
+    color: var(--black);
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.common-description {
+    color: var(--description);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+
+
+
+/* Header Navigation Style */
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2.8rem;
+}
+
+.nav-menu>li {
+    list-style: none;
+}
+
+.nav-menu>li>a {
+    text-decoration: none;
+    color: var(--description);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/* Header Banner Style */
+
+.banner-section{
+    background: url(/Images/Rectangle\ 2.png), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner-title {
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 800;
+}
