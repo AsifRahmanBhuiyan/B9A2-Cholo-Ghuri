@@ -77,6 +77,11 @@
     gap: 2.8rem;
 }
 
+.nav-icon{
+    width: 30%;
+    display: none;
+}
+
 .nav-menu>li {
     list-style: none;
 }
@@ -137,7 +142,8 @@
     margin-bottom: 6rem;
 }
 
-.banner-form>input {
+.banner-form>input,
+select {
     border-radius: 0.5rem;
     border: 0;
     width: 10rem;
@@ -145,6 +151,7 @@
     font-size: 1rem;
     font-weight: 800;
     padding-left: 1rem;
+    color: grey;
 }
 
 
@@ -156,7 +163,11 @@
     align-items: center;
 }
 
-.popular-tours-image img{
+.popular-tours-content{
+    width:50%;
+}
+
+.popular-tours-image img {
     max-width: 100%;
     object-fit: cover;
 }
@@ -167,7 +178,9 @@
 
 .destination-images img {
     width: 100%;
+    height: 15rem;
     object-fit: cover;
+    border-radius: 1rem;
 }
 
 .destination-images {
@@ -214,21 +227,23 @@
 
 .choose-us-middle {
     display: flex;
-    gap: 10%;
+    gap: 4%;
 }
 
 .choose-us-card-1 {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    width: 45%;
+    width: 48%;
+    padding: 1.5rem;
 }
 
 .choose-us-card-2 {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 45%;
+    width: 48%;
+    padding: 1.5rem;
 }
 
 .choose-us-card-3 {
@@ -236,7 +251,8 @@
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     width: 45%;
-    margin: 0 auto;
+    margin: 2.5rem auto;
+    padding: 1.5rem;
 }
 
 
@@ -249,6 +265,7 @@
 
 .deals-card-top {
     display: flex;
+    gap: 1.5rem;
 }
 
 .deals-card-child {
@@ -258,12 +275,18 @@
     backdrop-filter: blur(2.5px);
     width: 50%;
     margin: 0 5% 0 auto;
+    padding: 1rem 3.1rem 3.1rem 3.1rem;
+}
+
+.deals-card-child-2{
+    margin: 0 auto 0 5%;
 }
 
 
 
 .deals-card {
     position: relative;
+    margin-bottom: 1.5rem;
 }
 
 .deals-card>img {
@@ -271,6 +294,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 0.8rem;
 }
 
 
@@ -291,20 +315,23 @@
 
 .perfect-place-section video {
     max-width: 100%;
+    border-radius: 1rem;
 }
 
 
 
 /* Newsletter Section Styles */
-.newsletter-section{
+.newsletter-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 .newsletter-form {
     border-radius: 1rem;
     border: 1px solid var(--orange);
+    padding: 1rem 2.5rem;
 }
 
 .newsletter-form input {
@@ -312,10 +339,10 @@
     background: rgba(19, 19, 24, 0.05);
     height: 3.1rem;
     border: none;
-    width: 90%;
+    width: 100%;
 }
 
-.newsletter-image img{
+.newsletter-image img {
     width: 100%;
     object-fit: cover;
 }
@@ -323,13 +350,14 @@
 
 
 /* Footer Styles */
-.footer-logo-title{
+.footer-logo-title {
     display: flex;
 }
 
-footer{
+.footer-top {
     background: rgba(19, 19, 24, 0.05);
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4rem;
 }
