@@ -343,6 +343,28 @@ select {
     border-radius: 1rem;
 }
 
+/* Review Section */
+.review-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.review-cards>div{
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.review-cards>div:hover{
+    border: 2px solid var(--orange);
+}
+
+.review-cards img{
+    width: 100%;
+    height: fit-content;
+    border-radius: 1rem;
+}
 
 
 /* Newsletter Section Styles */

@@ -109,6 +109,10 @@
         margin-top: 1rem;
     }
 
+    .review-cards{
+        grid-template-columns: 1fr;
+    }
+
     .newsletter-section {
         flex-direction: column;
         gap: 2rem;
