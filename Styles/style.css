@@ -392,12 +392,15 @@ select {
 
 
 /* Footer Styles */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+
 .footer-logo-title {
     display: flex;
 }
 
 .footer-top {
-    background: rgba(19, 19, 24, 0.05);
     display: flex;
     flex-direction: column;
     align-items: center;
