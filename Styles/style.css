@@ -21,7 +21,7 @@
 .container {
     width: 81%;
     max-width: 1180px;
-    margin: 0 auto;
+    margin: 6rem auto;
 }
 
 .common-title {
@@ -35,17 +35,19 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .common-button {
     border-radius: 0.5rem;
     border: 0;
     background: var(--orange);
-    width: 10rem;
-    height: 3rem;
+    padding: 0.9rem 2.7rem;
     color: var(--white);
     font-size: 1.2rem;
     font-weight: 800;
+    margin-top: 2.5rem;
 }
 
 .text-align-center {
@@ -58,6 +60,7 @@
 /* Header Navigation Style */
 
 .nav-section {
+    margin-bottom: 2.8rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -118,7 +121,6 @@
     color: var(--white);
     font-size: 4rem;
     font-weight: 800;
-    padding-bottom: 1rem;
 }
 
 .banner-form {
@@ -154,12 +156,18 @@
     align-items: center;
 }
 
+.popular-tours-image img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
 
 
 /* Destination Section Styles */
 
 .destination-images img {
     width: 100%;
+    object-fit: cover;
 }
 
 .destination-images {
@@ -254,11 +262,11 @@
 
 
 
-.deals-card{
+.deals-card {
     position: relative;
 }
 
-.deals-card>img{
+.deals-card>img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -269,7 +277,7 @@
 
 /*  Perfect Place Section Styles */
 
-.perfect-place-section{
+.perfect-place-section {
     display: flex;
     align-items: center;
 }
@@ -281,6 +289,47 @@
     line-height: 26px;
 }
 
-.perfect-place-section video{
+.perfect-place-section video {
     max-width: 100%;
+}
+
+
+
+/* Newsletter Section Styles */
+.newsletter-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-form {
+    border-radius: 1rem;
+    border: 1px solid var(--orange);
+}
+
+.newsletter-form input {
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+    height: 3.1rem;
+    border: none;
+    width: 90%;
+}
+
+.newsletter-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* Footer Styles */
+.footer-logo-title{
+    display: flex;
+}
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
