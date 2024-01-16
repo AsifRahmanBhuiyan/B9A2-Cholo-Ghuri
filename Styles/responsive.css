@@ -5,10 +5,14 @@
     .nav-icon {
         height: 40px;
         position: relative;
-        transform: translate(70%);
         display: flex;
     }
 
+    .nav-icon:hover{
+        border: 2px solid #FF5400;
+    }
+    
+    
     .container {
         width: 90%;
     }
@@ -112,6 +116,11 @@
 
     .footer-top {
         gap: 2rem;
+    }
+
+    .newsletter-image-tag {
+        top: 39%;
+        left: 27%;
     }
 
 }
