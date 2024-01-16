@@ -114,6 +114,10 @@
         gap: 2rem;
     }
 
+    .newsletter-form {
+        width: 100%;
+    }
+
     .footer-top {
         gap: 2rem;
     }

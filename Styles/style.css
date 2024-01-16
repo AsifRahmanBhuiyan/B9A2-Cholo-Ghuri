@@ -354,6 +354,7 @@ select {
     height: 3.1rem;
     border: none;
     width: 100%;
+    padding-left: 1rem;
 }
 
 .newsletter-image {
@@ -373,13 +374,13 @@ select {
 .newsletter-image-tag>h2 {
     color: #FFF;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
 .newsletter-image-tag>h1 {
     color: #FFF;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 800;
     text-align: center;
 }
@@ -394,6 +395,7 @@ select {
 /* Footer Styles */
 footer{
     background: rgba(19, 19, 24, 0.05);
+    padding: 3rem;
 }
 
 .footer-logo-title {
@@ -404,5 +406,5 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 4rem;
+    padding-bottom: 4rem;
 }
