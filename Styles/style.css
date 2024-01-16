@@ -50,6 +50,10 @@
     margin-top: 2.5rem;
 }
 
+.common-button:hover{
+    background-color: crimson;
+}
+
 .text-align-center {
     text-align: center;
 }
@@ -94,6 +98,9 @@
     line-height: 26px
 }
 
+.nav-menu>li>a:hover{
+    color: var(--orange);
+}
 
 /* Header Banner Style */
 
@@ -181,6 +188,10 @@ select {
     height: 15rem;
     object-fit: cover;
     border-radius: 1rem;
+}
+
+.destination-images img:hover{
+    border: 2px solid var(--orange);
 }
 
 .destination-images {
